@@ -1,0 +1,49 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "健康管理アプリ",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Condition",
+                    "slots": [
+                        {
+                            "name": "utterance",
+                            "type": "any"
+                        }
+                    ],
+                    "samples": [
+                        "{utterance}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "any",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ほげほげ"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
